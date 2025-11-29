@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Absolute paths
-DIR="/home/yourpi/programs"
+DIR="/home/user/programs"
 VENV_DIR="$DIR/venv"
 VENV_PYTHON="$VENV_DIR/bin/python3"
 
@@ -28,7 +28,7 @@ pkill -f commentbot.py
 echo "Launching bot..."
 nohup "$VENV_PYTHON" follow.py > follow.log 2>&1 &
 nohup "$VENV_PYTHON" commentbot.py > commentbot.log 2>&1 &
-/home/yourpi/programs/venv/bin/python3 donecomment.py &
+/home/user/programs/venv/bin/python3 donecomment.py &
 
 
 echo "Bot started successfully."
