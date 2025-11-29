@@ -26,3 +26,17 @@ From inside the folder with your Python scripts:
 
 ```bash
 py -m venv venv
+```
+
+### 5. Install ScratchAttach
+Inside the venv, install the library:
+
+```bash
+py -m pip install scratchattach
+```
+
+### 6. Run the system
+Navigate to the directory where `start_system.sh` is located and run:
+```bash
+./start_system.sh
+```
