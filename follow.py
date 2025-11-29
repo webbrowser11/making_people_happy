@@ -5,7 +5,7 @@ import time
 print("Creating session")
 session = attach.login("YORU USERNAME", "YORU PASSWORD")
 print("Connecting studio")
-studio = session.connect_studio("35292763") # This can be any studio but this is a good one.
+studio = session.connect_studio("50683717") # This can be any studio but this is a good one.
 off = 11500
 index = 10
 while True:
